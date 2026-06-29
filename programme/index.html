@@ -500,6 +500,10 @@
        </tr>
        <tr>
          <td class="abstract">
+          <details>
+          <summary>Abstract</summary>
+            Tensor decomposition seeks to recover factors in multi-dimensional arrays. I’ll present a new algorithm for decomposing tensors called the multi-subspace power method. It recovers a decomposition one summand at a time using the higher-order power method. Finding summands one by one is beneficial for accuracy and interpretability, but is known to fail in general. The approach overcomes this problem by transforming the input tensor to one with orthonormal slices, via change of basis. Tensor decomposition enables the comparison of variables across contexts (for example, patients across diseases or words across genres). We use our algorithm for multi-context principal component analysis (MCPCA), a tool to find axes of variation shared across subsets of contexts. Just as usual principal component analysis is a low-rank approximation of the covariance matrix, MCPCA finds a low rank approximation of the third-order tensor obtained by stacking covariance matrices across contexts. I’ll describe its applications to study gene expression across disease types and contextualized word embeddings across genres of text. Based on joint work with Kexin Wang, Salil Bhate, João Pereira, Joe Kileel, and Matylda Figlerowicz. 
+            </details>
          </td>
        </tr>
      </table>
